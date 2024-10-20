@@ -12,6 +12,12 @@ public class NeatGenome
         nodeGenes = new List<NodeGene>();
         conGenes = new List<ConGene>();
     }
+    
+    public NeatGenome(List<NodeGene> nodeGens, List<ConGene> conGens)
+    {
+        nodeGenes = nodeGens;
+        conGenes = conGens;
+    }
 }
 
 public class NodeGene
